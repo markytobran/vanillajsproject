@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>J P Hildreth Ltd</title>
+    <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Coding Exercise for J P Hildreth Ltd</h1>
+      <p class="search-term">Please enter a search term <i class="far fa-hand-point-down"></i></p>
+      <!--SEARCHBAR-->
+      <div class="search-bar">
+        <i class="fas fa-search"></i>
+        <input type="text" id="search" placeholder="Search..." />
+        <i class="fas fa-window-close"></i>
+      </div>
+      <div class="submit-btn-container">
+        <button class="submit-btn">
+          Send<i class="fa fa-paper-plane"></i>
+        </button>
+      </div>
+      <div class="container">
+        <div id="result-heading"></div>
+        <div id=results>
+          <ul class="draggable-list" id="draggable-list"></ul>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
